@@ -1,0 +1,30 @@
+html {
+    /* Setting a base font size of 10px give us easier rem calculations
+       Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
+     */
+    font-size: 10px;
+  }
+  
+  body{
+    text-align:center;
+  }
+  #main{
+    font-size:20px;
+    /*background:#1f1;*/
+    background:linear-gradient(90deg,#0f0,magenta 40%,#0f0 75%,blue 100%); 
+  }
+  #title{
+    color:white;
+  }
+  h1{
+    margin:center;
+  }
+  img{
+    width: 450px;
+    justify-self:center;
+    margin:auto;
+    }
+  .responsive-image{
+    max-width:100%;
+    height:auto;
+  }
